@@ -1,0 +1,4770 @@
+{
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/App.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "App",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/App.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/_Imports.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "_Imports",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "using",
+        "Content": "System.Net.Http"
+      },
+      {
+        "Directive": "using",
+        "Content": "System.Net.Http.Json"
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.AspNetCore.Components.Forms"
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.AspNetCore.Components.Routing"
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.AspNetCore.Components.Web"
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.AspNetCore.Components.Web.Virtualization"
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.AspNetCore.Components.WebAssembly.Http"
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.JSInterop"
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample"
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Shared"
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Shared.data_binding"
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Shared.dynamiccomponent"
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Shared.templated_components"
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Shared.event_handling"
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Shared.advanced_scenarios"
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Shared.index"
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Shared.forms_and_validation"
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Shared.call_dotnet_from_js"
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Shared.host_and_deploy"
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Shared.element_component_model_relationships"
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Shared.overwriting_parameters"
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Shared.splat_attributes_and_arbitrary_parameters"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/_Imports.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/MainLayout.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "MainLayout",
+    "BaseType": "LayoutComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "inherits",
+        "Content": "LayoutComponentBase"
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.UIThemeClasses"
+      },
+      {
+        "Directive": "Body",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/MainLayout.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/NavMenu.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "NavMenu",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/NavMenu.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/SurveyPrompt.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "SurveyPrompt",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "string?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/SurveyPrompt.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/layouts/App1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "App1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/layouts/App1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/routing/App2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "App2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/routing/App2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/routing/App1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "App1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/routing/App1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/Counter.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Counter",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/counter\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/Counter.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/CallJsExample7.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallJsExample7",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-js-example-7\""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/CallJsExample7.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/Index.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Index",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/\""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/Index.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/FetchData.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "FetchData",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitializedAsync",
+        "IsAsync": true,
+        "ReturnType": "Task"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/fetchdata\""
+      },
+      {
+        "Directive": "inject",
+        "Content": "HttpClient Http"
+      },
+      {
+        "Directive": "if",
+        "Content": "(forecasts == null)"
+      },
+      {
+        "Directive": "foreach",
+        "Content": "(var forecast in forecasts)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/FetchData.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/ThemedCounter.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ThemedCounter",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "ThemeInfo",
+        "Type": "ThemeInfo?",
+        "IsCascading": true,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/themed-counter\""
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.UIThemeClasses"
+      },
+      {
+        "Directive": "onclick=\"IncrementCount\">",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/ThemedCounter.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/data-binding/ChildParameterExpression.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ChildParameterExpression",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Year",
+        "Type": "int",
+        "IsCascading": false,
+        "AttributeDetails": []
+      },
+      {
+        "Name": "YearChanged",
+        "Type": "EventCallback<int>",
+        "IsCascading": false,
+        "AttributeDetails": []
+      },
+      {
+        "Name": "YearExpression",
+        "Type": "Expression<Func<int>>",
+        "IsCascading": false,
+        "DefaultValue": "default!",
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [
+      {
+        "Name": "YearChanged",
+        "IsGeneric": true,
+        "GenericType": "int"
+      }
+    ],
+    "RazorDirectives": [
+      {
+        "Directive": "using",
+        "Content": "System.Linq.Expressions"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/data-binding/ChildParameterExpression.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/data-binding/NestedGrandchild.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "NestedGrandchild",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "GrandchildMessage",
+        "Type": "string?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      },
+      {
+        "Name": "GrandchildMessageChanged",
+        "Type": "EventCallback<string>",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [
+      {
+        "Name": "GrandchildMessageChanged",
+        "IsGeneric": true,
+        "GenericType": "string"
+      }
+    ],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/data-binding/NestedGrandchild.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/data-binding/NestedChild.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "NestedChild",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "ChildMessage",
+        "Type": "string?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      },
+      {
+        "Name": "ChildMessageChanged",
+        "Type": "EventCallback<string>",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [
+      {
+        "Name": "ChildMessageChanged",
+        "IsGeneric": true,
+        "GenericType": "string"
+      }
+    ],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/data-binding/NestedChild.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/data-binding/PasswordEntry.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "PasswordEntry",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Password",
+        "Type": "string?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      },
+      {
+        "Name": "PasswordChanged",
+        "Type": "EventCallback<string>",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [
+      {
+        "Name": "PasswordChanged",
+        "IsGeneric": true,
+        "GenericType": "string"
+      }
+    ],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/data-binding/PasswordEntry.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/data-binding/PasswordEntry2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "PasswordEntry2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Password",
+        "Type": "string?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      },
+      {
+        "Name": "PasswordChanged",
+        "Type": "EventCallback<string>",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [
+      {
+        "Name": "PasswordChanged",
+        "IsGeneric": true,
+        "GenericType": "string"
+      }
+    ],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/data-binding/PasswordEntry2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/data-binding/ChildBind.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ChildBind",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Year",
+        "Type": "int",
+        "IsCascading": false,
+        "AttributeDetails": []
+      },
+      {
+        "Name": "YearChanged",
+        "Type": "EventCallback<int>",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [
+      {
+        "Name": "YearChanged",
+        "IsGeneric": true,
+        "GenericType": "int"
+      }
+    ],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/data-binding/ChildBind.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/forms-and-validation/CustomInputText.razor": {
+    "IsValidComponent": false,
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/forms-and-validation/CustomInputText.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/event-handling/Child.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Child",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "string?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      },
+      {
+        "Name": "ChildContent",
+        "Type": "RenderFragment?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      },
+      {
+        "Name": "OnClickCallback",
+        "Type": "EventCallback<MouseEventArgs>",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [
+      {
+        "Name": "OnClickCallback",
+        "IsGeneric": true,
+        "GenericType": "MouseEventArgs"
+      }
+    ],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/event-handling/Child.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/splat-attributes-and-arbitrary-parameters/AttributeOrderChild2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "AttributeOrderChild2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "AdditionalAttributes",
+        "Type": "IDictionary<string, object>?",
+        "IsCascading": false,
+        "AttributeDetails": [
+          {
+            "Value": "true"
+          }
+        ]
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/splat-attributes-and-arbitrary-parameters/AttributeOrderChild2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/splat-attributes-and-arbitrary-parameters/AttributeOrderChild1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "AttributeOrderChild1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "AdditionalAttributes",
+        "Type": "IDictionary<string, object>?",
+        "IsCascading": false,
+        "AttributeDetails": [
+          {
+            "Value": "true"
+          }
+        ]
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/splat-attributes-and-arbitrary-parameters/AttributeOrderChild1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/overwriting-parameters/ShowMoreExpander.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ShowMoreExpander",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "InitiallyExpanded",
+        "Type": "bool",
+        "IsCascading": false,
+        "AttributeDetails": []
+      },
+      {
+        "Name": "ChildContent",
+        "Type": "RenderFragment?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "if",
+        "Content": "(expanded)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/overwriting-parameters/ShowMoreExpander.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/overwriting-parameters/ToggleExpander.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ToggleExpander",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Expanded",
+        "Type": "bool",
+        "IsCascading": false,
+        "AttributeDetails": []
+      },
+      {
+        "Name": "ExpandedChanged",
+        "Type": "EventCallback<bool>",
+        "IsCascading": false,
+        "AttributeDetails": []
+      },
+      {
+        "Name": "ChildContent",
+        "Type": "RenderFragment?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnParametersSet",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [
+      {
+        "Name": "ExpandedChanged",
+        "IsGeneric": true,
+        "GenericType": "bool"
+      }
+    ],
+    "RazorDirectives": [
+      {
+        "Directive": "if",
+        "Content": "(expanded)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/overwriting-parameters/ToggleExpander.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/overwriting-parameters/BadShowMoreExpander.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "BadShowMoreExpander",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "InitiallyExpanded",
+        "Type": "bool",
+        "IsCascading": false,
+        "AttributeDetails": []
+      },
+      {
+        "Name": "ChildContent",
+        "Type": "RenderFragment?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "if",
+        "Content": "(InitiallyExpanded)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/overwriting-parameters/BadShowMoreExpander.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/templated-components/TemplatedNavBar.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "TemplatedNavBar",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "StartContent",
+        "Type": "RenderFragment?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      },
+      {
+        "Name": "ItemTemplate",
+        "Type": "RenderFragment<TItem>",
+        "IsCascading": false,
+        "DefaultValue": "default!",
+        "AttributeDetails": []
+      },
+      {
+        "Name": "Items",
+        "Type": "IReadOnlyList<TItem>",
+        "IsCascading": false,
+        "DefaultValue": "default!",
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "typeparam",
+        "Content": "TItem"
+      },
+      {
+        "Directive": "StartContent",
+        "Content": ""
+      },
+      {
+        "Directive": "foreach",
+        "Content": "(var item in Items)"
+      },
+      {
+        "Directive": "ItemTemplate(item)",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/templated-components/TemplatedNavBar.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/templated-components/TableTemplate.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "TableTemplate",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "TableHeader",
+        "Type": "RenderFragment?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      },
+      {
+        "Name": "RowTemplate",
+        "Type": "RenderFragment<TItem>",
+        "IsCascading": false,
+        "DefaultValue": "default!",
+        "AttributeDetails": []
+      },
+      {
+        "Name": "Items",
+        "Type": "IReadOnlyList<TItem>",
+        "IsCascading": false,
+        "DefaultValue": "default!",
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "typeparam",
+        "Content": "TItem"
+      },
+      {
+        "Directive": "foreach",
+        "Content": "(var item in Items)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/templated-components/TableTemplate.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/advanced-scenarios/PetDetails.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "PetDetails",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "PetDetailsQuote",
+        "Type": "string?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": ""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/advanced-scenarios/PetDetails.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/VirginGalactic2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "VirginGalactic2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "OnClickCallback",
+        "Type": "EventCallback<MouseEventArgs>",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [
+      {
+        "Name": "OnClickCallback",
+        "IsGeneric": true,
+        "GenericType": "MouseEventArgs"
+      }
+    ],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/VirginGalactic2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/RocketLab3.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "RocketLab3",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Interfaces"
+      },
+      {
+        "Directive": "implements",
+        "Content": "ILoggable"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<RocketLab3> Logger"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/RocketLab3.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/UnitedLaunchAlliance3.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "UnitedLaunchAlliance3",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Interfaces"
+      },
+      {
+        "Directive": "implements",
+        "Content": "ILoggable"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<UnitedLaunchAlliance3> Logger"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/UnitedLaunchAlliance3.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/VirginGalactic3.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "VirginGalactic3",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Interfaces"
+      },
+      {
+        "Directive": "implements",
+        "Content": "ILoggable"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<VirginGalactic3> Logger"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/VirginGalactic3.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/RocketLab.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "RocketLab",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/RocketLab.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/RocketLab2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "RocketLab2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "OnClickCallback",
+        "Type": "EventCallback<MouseEventArgs>",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [
+      {
+        "Name": "OnClickCallback",
+        "IsGeneric": true,
+        "GenericType": "MouseEventArgs"
+      }
+    ],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/RocketLab2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/SpaceX.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "SpaceX",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/SpaceX.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/RocketLabWithWindowSeat.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "RocketLabWithWindowSeat",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "WindowSeat",
+        "Type": "bool",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/RocketLabWithWindowSeat.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/UnitedLaunchAlliance2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "UnitedLaunchAlliance2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "OnClickCallback",
+        "Type": "EventCallback<MouseEventArgs>",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [
+      {
+        "Name": "OnClickCallback",
+        "IsGeneric": true,
+        "GenericType": "MouseEventArgs"
+      }
+    ],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/UnitedLaunchAlliance2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/UnitedLaunchAlliance.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "UnitedLaunchAlliance",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/UnitedLaunchAlliance.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/SpaceX3.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "SpaceX3",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Interfaces"
+      },
+      {
+        "Directive": "implements",
+        "Content": "ILoggable"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<SpaceX3> Logger"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/SpaceX3.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/VirginGalactic.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "VirginGalactic",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/VirginGalactic.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/SpaceX2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "SpaceX2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "OnClickCallback",
+        "Type": "EventCallback<MouseEventArgs>",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [
+      {
+        "Name": "OnClickCallback",
+        "IsGeneric": true,
+        "GenericType": "MouseEventArgs"
+      }
+    ],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/dynamiccomponent/SpaceX2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/layouts/ProductionsLayout.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ProductionsLayout",
+    "BaseType": "LayoutComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "inherits",
+        "Content": "LayoutComponentBase"
+      },
+      {
+        "Directive": "Body",
+        "Content": ""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/layouts/ProductionsLayout.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/layouts/MainLayout.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "MainLayout",
+    "BaseType": "LayoutComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "inherits",
+        "Content": "LayoutComponentBase"
+      },
+      {
+        "Directive": "Body",
+        "Content": ""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/layouts/MainLayout.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/layouts/DoctorWhoLayout2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "DoctorWhoLayout2",
+    "BaseType": "LayoutComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "inherits",
+        "Content": "LayoutComponentBase"
+      },
+      {
+        "Directive": "layout",
+        "Content": "ProductionsLayout"
+      },
+      {
+        "Directive": "Body",
+        "Content": ""
+      },
+      {
+        "Directive": "TrademarkMessage",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/layouts/DoctorWhoLayout2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/layouts/DoctorWhoLayout.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "DoctorWhoLayout",
+    "BaseType": "LayoutComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "inherits",
+        "Content": "LayoutComponentBase"
+      },
+      {
+        "Directive": "Body",
+        "Content": ""
+      },
+      {
+        "Directive": "TrademarkMessage",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/layouts/DoctorWhoLayout.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/index/ParameterChild.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ParameterChild",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "string",
+        "IsCascading": false,
+        "DefaultValue": "\"Set By Child\"",
+        "AttributeDetails": []
+      },
+      {
+        "Name": "Body",
+        "Type": "PanelBody",
+        "IsCascading": false,
+        "DefaultValue": "new()\n        {\n            Text = \"Set by child.\",\n            Style = \"normal\"\n        }",
+        "AttributeDetails": []
+      },
+      {
+        "Name": "Count",
+        "Type": "int?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "if",
+        "Content": "(Count is not null)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/index/ParameterChild.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/index/RenderFragmentChild.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "RenderFragmentChild",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "ChildContent",
+        "Type": "RenderFragment?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/index/RenderFragmentChild.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/index/RenderNamedTupleChild.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "RenderNamedTupleChild",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Data",
+        "Type": "(int TheInteger, string TheString, bool TheBoolean)?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/index/RenderNamedTupleChild.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/index/RenderTupleChild.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "RenderTupleChild",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Data",
+        "Type": "(int, string, bool)?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/index/RenderTupleChild.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/index/Heading.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Heading",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/index/Heading.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/index/ReferenceChild.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ReferenceChild",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "using",
+        "Content": "Microsoft.Extensions.Logging"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<ReferenceChild> Logger"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/index/ReferenceChild.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/call-dotnet-from-js/ListItem1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ListItem1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "message",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/call-dotnet-from-js/ListItem1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/call-dotnet-from-js/ListItem2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ListItem2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnAfterRenderAsync",
+        "IsAsync": true,
+        "ReturnType": "Task"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/call-dotnet-from-js/ListItem2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/host-and-deploy/MeasureLatency.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "MeasureLatency",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnAfterRenderAsync",
+        "IsAsync": true,
+        "ReturnType": "Task"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "if",
+        "Content": "(latency is null)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/host-and-deploy/MeasureLatency.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/element-component-model-relationships/Details.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Details",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Data",
+        "Type": "string?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Shared/element-component-model-relationships/Details.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-web-api/TodoRequest.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "TodoRequest",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/todo-request\""
+      },
+      {
+        "Directive": "using",
+        "Content": "System.Net.Http.Headers"
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.AspNetCore.Components.WebAssembly.Authentication"
+      },
+      {
+        "Directive": "inject",
+        "Content": "HttpClient Http"
+      },
+      {
+        "Directive": "inject",
+        "Content": "IAccessTokenProvider TokenProvider"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-web-api/TodoRequest.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/file-downloads/FileDownload1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "FileDownload1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/file-download-1\""
+      },
+      {
+        "Directive": "using",
+        "Content": "System.IO"
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/file-downloads/FileDownload1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/file-downloads/FileDownload2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "FileDownload2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/file-download-2\""
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/file-downloads/FileDownload2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/configuration/MemoryConfig.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "MemoryConfig",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/memory-config\""
+      },
+      {
+        "Directive": "inject",
+        "Content": "IConfiguration Configuration"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/configuration/MemoryConfig.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/configuration/ConfigExample.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ConfigExample",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/config-example\""
+      },
+      {
+        "Directive": "inject",
+        "Content": "IConfiguration Configuration"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/configuration/ConfigExample.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/BindTheory.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "BindTheory",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/bind-theory\""
+      },
+      {
+        "Directive": "onchange=\"@((ChangeEventArgs",
+        "Content": "__e) => InputValue = __e?.Value?.ToString())\" />"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/BindTheory.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/UnparsableValues.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "UnparsableValues",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/unparseable-values\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/UnparsableValues.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/PasswordBinding.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "PasswordBinding",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/password-binding\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/PasswordBinding.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/DateBinding.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "DateBinding",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/date-binding\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/DateBinding.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/Parent3.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Parent3",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/parent-3\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/Parent3.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/Bind.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Bind",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/bind\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/Bind.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/Parent1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Parent1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/parent-1\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/Parent1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/DecimalBinding.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "DecimalBinding",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/decimal-binding\""
+      },
+      {
+        "Directive": "using",
+        "Content": "System.Globalization"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/DecimalBinding.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/Parent2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Parent2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/parent-2\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/Parent2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/BindEvent.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "BindEvent",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/bind-event\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/data-binding/BindEvent.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/file-uploads/FileUpload2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "FileUpload2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "ShouldRender",
+        "IsAsync": false,
+        "ReturnType": "bool"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/file-upload-2\""
+      },
+      {
+        "Directive": "using",
+        "Content": "System.Linq"
+      },
+      {
+        "Directive": "using",
+        "Content": "System.Net.Http.Headers"
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.Extensions.Logging"
+      },
+      {
+        "Directive": "inject",
+        "Content": "HttpClient Http"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<FileUpload2> Logger"
+      },
+      {
+        "Directive": "if",
+        "Content": "(files.Count > 0)"
+      },
+      {
+        "Directive": "foreach",
+        "Content": "(var file in files)"
+      },
+      {
+        "Directive": "if",
+        "Content": "(FileUpload(uploadResults, file.Name, Logger,"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/file-uploads/FileUpload2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/file-uploads/FileUpload1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "FileUpload1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/file-upload-1\""
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.Extensions.Logging"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<FileUpload1> Logger"
+      },
+      {
+        "Directive": "if",
+        "Content": "(isLoading)"
+      },
+      {
+        "Directive": "foreach",
+        "Content": "(var file in loadedFiles)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/file-uploads/FileUpload1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample8.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "FormExample8",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/form-example-8\""
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.Extensions.Logging"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<FormExample8> Logger"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample8.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample9.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "FormExample9",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/form-example-9\""
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.Extensions.Logging"
+      },
+      {
+        "Directive": "implements",
+        "Content": "IDisposable"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<FormExample9> Logger"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample9.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample5.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "FormExample5",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/form-example-5\""
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.Extensions.Logging"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<FormExample5> Logger"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample5.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample7.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "FormExample7",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/form-example-7\""
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.Extensions.Logging"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<FormExample7> Logger"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample7.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample3.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "FormExample3",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/form-example-3\""
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.Extensions.Logging"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<FormExample3> Logger"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample3.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "FormExample1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/form-example-1\""
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.Extensions.Logging"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<FormExample1> Logger"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample4.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "FormExample4",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/form-example-4\""
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.Extensions.Logging"
+      },
+      {
+        "Directive": "implements",
+        "Content": "IDisposable"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<FormExample4> Logger"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample4.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "FormExample2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/form-example-2\""
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.Extensions.Logging"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<FormExample2> Logger"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/forms-and-validation/FormExample2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/handle-errors/ProductDetails.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ProductDetails",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "ProductId",
+        "Type": "int",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnParametersSetAsync",
+        "IsAsync": true,
+        "ReturnType": "Task"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/product-details/{ProductId:int}\""
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.Extensions.Logging"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<ProductDetails> Logger"
+      },
+      {
+        "Directive": "inject",
+        "Content": "IProductRepository ProductRepository"
+      },
+      {
+        "Directive": "if",
+        "Content": "(details != null)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/handle-errors/ProductDetails.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "EventHandlerExample2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/event-handler-2\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample4.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "EventHandlerExample4",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/event-handler-example-4\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample4.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample6.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "EventHandlerExample6",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/event-handler-example-6\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample6.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "EventHandlerExample1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/event-handler-1\""
+      },
+      {
+        "Directive": "checkedMessage",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample3.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "EventHandlerExample3",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/event-handler-example-3\""
+      },
+      {
+        "Directive": "for",
+        "Content": "(var i = 0; i < 4; i++)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample3.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample7.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "EventHandlerExample7",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/event-handler-example-7\""
+      },
+      {
+        "Directive": "onclick:stopPropagation=\"stopPropagation\">",
+        "Content": ""
+      },
+      {
+        "Directive": "message",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample7.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample5.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "EventHandlerExample5",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/event-handler-example-5\""
+      },
+      {
+        "Directive": "for",
+        "Content": "(var i = 1; i < 4; i++)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample5.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/Parent.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Parent",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/parent\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/Parent.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample8.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "EventHandlerExample8",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/event-handler-example-8\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/event-handling/EventHandlerExample8.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/control-head-content/ControlHeadContent.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ControlHeadContent",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/control-head-content\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/control-head-content/ControlHeadContent.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/images/ShowFile.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ShowFile",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/show-file\""
+      },
+      {
+        "Directive": "inject",
+        "Content": "NavigationManager NavigationManager"
+      },
+      {
+        "Directive": "inject",
+        "Content": "HttpClient Http"
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "code",
+        "Content": ""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/images/ShowFile.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/images/ShowImage2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ShowImage2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/show-image-2\""
+      },
+      {
+        "Directive": "inject",
+        "Content": "HttpClient Http"
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/images/ShowImage2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/images/ShowImage1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ShowImage1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/show-image-1\""
+      },
+      {
+        "Directive": "if",
+        "Content": "(imageSource is not null)"
+      },
+      {
+        "Directive": "for",
+        "Content": "(var i = 1; i <= 3; i++)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/images/ShowImage1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/synchronization-context/ReceiveNotifications.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ReceiveNotifications",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/receive-notifications\""
+      },
+      {
+        "Directive": "implements",
+        "Content": "IDisposable"
+      },
+      {
+        "Directive": "inject",
+        "Content": "NotifierService Notifier"
+      },
+      {
+        "Directive": "inject",
+        "Content": "TimerService Timer"
+      },
+      {
+        "Directive": "if",
+        "Content": "(lastNotification.key is not null)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/synchronization-context/ReceiveNotifications.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/environments/ReadEnvironment.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ReadEnvironment",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/read-environment\""
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.AspNetCore.Components.WebAssembly.Hosting"
+      },
+      {
+        "Directive": "inject",
+        "Content": "IWebAssemblyHostEnvironment HostEnvironment"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/environments/ReadEnvironment.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/splat-attributes-and-arbitrary-parameters/AttributeOrderParent1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "AttributeOrderParent1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/attribute-order-parent-1\""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/splat-attributes-and-arbitrary-parameters/AttributeOrderParent1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/splat-attributes-and-arbitrary-parameters/Splat.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Splat",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/splat\""
+      },
+      {
+        "Directive": "attributes=\"InputAttributes\"",
+        "Content": "/>"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/splat-attributes-and-arbitrary-parameters/Splat.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/splat-attributes-and-arbitrary-parameters/AttributeOrderParent2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "AttributeOrderParent2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/attribute-order-parent-2\""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/splat-attributes-and-arbitrary-parameters/AttributeOrderParent2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/overwriting-parameters/ExpandersToggle.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ExpandersToggle",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/expanders-toggle\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/overwriting-parameters/ExpandersToggle.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/overwriting-parameters/Expanders.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Expanders",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/expanders\""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/overwriting-parameters/Expanders.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/templated-components/PetDetail.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "PetDetail",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "int",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/pet-detail/{id:int}\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/templated-components/PetDetail.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/templated-components/Pets5.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Pets5",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnAfterRenderAsync",
+        "IsAsync": true,
+        "ReturnType": "Task"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/pets-5\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/templated-components/Pets5.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/templated-components/Pets1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Pets1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/pets-1\""
+      },
+      {
+        "Directive": "pet.Name",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/templated-components/Pets1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/templated-components/Pets3.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Pets3",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/pets-3\""
+      },
+      {
+        "Directive": "context.Name",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/templated-components/Pets3.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/templated-components/Pets4.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Pets4",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/pets-4\""
+      },
+      {
+        "Directive": "pet.Name",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/templated-components/Pets4.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/templated-components/Pets2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Pets2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/pets-2\""
+      },
+      {
+        "Directive": "pet.Name",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/templated-components/Pets2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/lifecycle/SetParamsAsync.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "SetParamsAsync",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Param",
+        "Type": "string?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/set-params-async/{Param?}\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/lifecycle/SetParamsAsync.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/lifecycle/CounterWithTimerDisposal1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CounterWithTimerDisposal1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/counter-with-timer-disposal-1\""
+      },
+      {
+        "Directive": "using",
+        "Content": "System.Timers"
+      },
+      {
+        "Directive": "implements",
+        "Content": "IDisposable"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/lifecycle/CounterWithTimerDisposal1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/lifecycle/AfterRender.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "AfterRender",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnAfterRender",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/after-render\""
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<AfterRender> Logger "
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/lifecycle/AfterRender.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/lifecycle/CounterWithTimerDisposal2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CounterWithTimerDisposal2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/counter-with-timer-disposal-2\""
+      },
+      {
+        "Directive": "using",
+        "Content": "System.Timers"
+      },
+      {
+        "Directive": "implements",
+        "Content": "IDisposable"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/lifecycle/CounterWithTimerDisposal2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/lifecycle/OnInit.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "OnInit",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/on-init\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/lifecycle/OnInit.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/lifecycle/BackgroundWork.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "BackgroundWork",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/background-work\""
+      },
+      {
+        "Directive": "using",
+        "Content": "System.Threading"
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.Extensions.Logging"
+      },
+      {
+        "Directive": "implements",
+        "Content": "IDisposable"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<BackgroundWork> Logger"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/lifecycle/BackgroundWork.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/lifecycle/OnParamsSet.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "OnParamsSet",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "StartDate",
+        "Type": "DateTime",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnParametersSet",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/on-params-set\""
+      },
+      {
+        "Directive": "page",
+        "Content": "\"/on-params-set/{StartDate:datetime}\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/lifecycle/OnParamsSet.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/advanced-scenarios/BuiltContent.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "BuiltContent",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/built-content\""
+      },
+      {
+        "Directive": "CustomRender",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/advanced-scenarios/BuiltContent.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/dynamiccomponent/DynamicComponentExample1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "DynamicComponentExample1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/dynamiccomponent-example-1\""
+      },
+      {
+        "Directive": "foreach",
+        "Content": "(var entry in components.Keys)"
+      },
+      {
+        "Directive": "if",
+        "Content": "(selectedType is not null)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/dynamiccomponent/DynamicComponentExample1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/dynamiccomponent/DynamicComponentExample3.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "DynamicComponentExample3",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/dynamiccomponent-example-3\""
+      },
+      {
+        "Directive": "foreach",
+        "Content": "(var c in Components)"
+      },
+      {
+        "Directive": "if",
+        "Content": "(selectedComponent is not null)"
+      },
+      {
+        "Directive": "message",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/dynamiccomponent/DynamicComponentExample3.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/dynamiccomponent/DynamicComponentExample4.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "DynamicComponentExample4",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/dynamic-component-example-4\""
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Interfaces"
+      },
+      {
+        "Directive": "foreach",
+        "Content": "(var entry in components.Keys)"
+      },
+      {
+        "Directive": "if",
+        "Content": "(selectedType is not null)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/dynamiccomponent/DynamicComponentExample4.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/dynamiccomponent/DynamicComponentExample2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "DynamicComponentExample2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/dynamiccomponent-example-2\""
+      },
+      {
+        "Directive": "foreach",
+        "Content": "(var c in components)"
+      },
+      {
+        "Directive": "if",
+        "Content": "(selectedComponent is not null)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/dynamiccomponent/DynamicComponentExample2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/layouts/Episodes.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Episodes",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/episodes\""
+      },
+      {
+        "Directive": "layout",
+        "Content": "DoctorWhoLayout"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/layouts/Episodes.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/layouts/DoctorWhoLayout.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "DoctorWhoLayout",
+    "BaseType": "LayoutComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "inherits",
+        "Content": "LayoutComponentBase"
+      },
+      {
+        "Directive": "Body",
+        "Content": ""
+      },
+      {
+        "Directive": "TrademarkMessage",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/layouts/DoctorWhoLayout.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/build-a-blazor-app/Todo.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Todo",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/todo\""
+      },
+      {
+        "Directive": "foreach",
+        "Content": "(var todo in todos)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/build-a-blazor-app/Todo.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/CounterPartialClass.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CounterPartialClass",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/counter-partial-class\""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/CounterPartialClass.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/BlazorRocks2.razor": {
+    "IsValidComponent": false,
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/BlazorRocks2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/Markup.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Markup",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/markup\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/Markup.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/BlazorRocks1.razor": {
+    "IsValidComponent": false,
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/BlazorRocks1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/ParameterParent.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ParameterParent",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/parameter-parent\""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/ParameterParent.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/RenderNamedTupleParent.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "RenderNamedTupleParent",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/render-named-tuple-parent\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/RenderNamedTupleParent.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/RenderFragmentParent.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "RenderFragmentParent",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/render-fragment-parent\""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/RenderFragmentParent.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/RouteParameter.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "RouteParameter",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Text",
+        "Type": "string?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/route-parameter/{text?}\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/RouteParameter.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/ReferenceParent.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ReferenceParent",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/reference-parent\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/ReferenceParent.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/HelloWorld.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "HelloWorld",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/hello-world\""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/HelloWorld.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/ParameterParent2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ParameterParent2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/parameter-parent-2\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/ParameterParent2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/RenderTupleParent.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "RenderTupleParent",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/render-tuple-parent\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/RenderTupleParent.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/ConditionalAttribute.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ConditionalAttribute",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/conditional-attribute\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/ConditionalAttribute.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/RazorTemplate.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "RazorTemplate",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/razor-template\""
+      },
+      {
+        "Directive": "timeTemplate",
+        "Content": ""
+      },
+      {
+        "Directive": "petTemplate(new",
+        "Content": "Pet { Name = \"Nutty Rex\" })"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/RazorTemplate.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/MarkupStringExample.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "MarkupStringExample",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/markup-string-example\""
+      },
+      {
+        "Directive": "((MarkupString)myMarkup)",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/MarkupStringExample.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/HeadingExample.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "HeadingExample",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/heading-example\""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/HeadingExample.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/ParameterParent3.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ParameterParent3",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/parameter-parent-3\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/index/ParameterParent3.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/rendering/CounterState2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CounterState2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/counter-state-2\""
+      },
+      {
+        "Directive": "using",
+        "Content": "System.Timers"
+      },
+      {
+        "Directive": "implements",
+        "Content": "IDisposable"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/rendering/CounterState2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/rendering/CounterState1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CounterState1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/counter-state-1\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/rendering/CounterState1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/rendering/ControlRender.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "ControlRender",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "ShouldRender",
+        "IsAsync": false,
+        "ReturnType": "bool"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/control-render\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/rendering/ControlRender.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample6.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallDotNetExample6",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-dotnet-example-6\""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample6.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample4.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallDotNetExample4",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-dotnet-example-4\""
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "result",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample4.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallDotNetExample2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-dotnet-example-2\""
+      },
+      {
+        "Directive": "implements",
+        "Content": "IDisposable"
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "result",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample5.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallDotNetExample5",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-dotnet-example-5\""
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "result",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample5.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample7.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallDotNetExample7",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-dotnet-example-7\""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample7.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample3.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallDotNetExample3",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-dotnet-example-3\""
+      },
+      {
+        "Directive": "implements",
+        "Content": "IDisposable"
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "result",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample3.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallDotNetExample1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-dotnet-example-1\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample8.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallDotNetExample8",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-dotnet-example-8\""
+      },
+      {
+        "Directive": "using",
+        "Content": "System.Text"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-dotnet-from-js/CallDotNetExample8.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/routing/RouteParameter1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "RouteParameter1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Text",
+        "Type": "string?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/route-parameter-1/{text}\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/routing/RouteParameter1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/routing/RouteParameter2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "RouteParameter2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Text",
+        "Type": "string?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnParametersSet",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/route-parameter-2/{text?}\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/routing/RouteParameter2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/routing/BlazorRoute.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "BlazorRoute",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/blazor-route\""
+      },
+      {
+        "Directive": "page",
+        "Content": "\"/different-blazor-route\""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/routing/BlazorRoute.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/routing/Navigate.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Navigate",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/navigate\""
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.Extensions.Logging "
+      },
+      {
+        "Directive": "implements",
+        "Content": "IDisposable"
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<Navigate> Logger"
+      },
+      {
+        "Directive": "inject",
+        "Content": "NavigationManager Navigation"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/routing/Navigate.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/routing/CatchAll.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CatchAll",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "PageRoute",
+        "Type": "string?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/catch-all/{*pageRoute}\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/routing/CatchAll.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/routing/User.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "User",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "int",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/user/{Id:int}\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/routing/User.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/routing/Example.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Example",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [
+      {
+        "Name": "Param",
+        "Type": "string?",
+        "IsCascading": false,
+        "AttributeDetails": []
+      }
+    ],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/example/{param?}\""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/routing/Example.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/logging/Counter1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Counter1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/counter-1\""
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILogger<Counter1> Logger"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/logging/Counter1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/logging/Counter2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "Counter2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/counter-2\""
+      },
+      {
+        "Directive": "inject",
+        "Content": "ILoggerFactory LoggerFactory"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/logging/Counter2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/dependency-injection/TransientService.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "TransientService",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/transient-service\""
+      },
+      {
+        "Directive": "using",
+        "Content": "BlazorSample.Services"
+      },
+      {
+        "Directive": "inject",
+        "Content": "TransientDisposableService TransientDisposable"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/dependency-injection/TransientService.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/element-component-model-relationships/PeopleExample.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "PeopleExample",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/people-example\""
+      },
+      {
+        "Directive": "using",
+        "Content": "System.Timers"
+      },
+      {
+        "Directive": "implements",
+        "Content": "IDisposable"
+      },
+      {
+        "Directive": "foreach",
+        "Content": "(var person in people)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/element-component-model-relationships/PeopleExample.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample11.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallJsExample11",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-js-example-11\""
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "result",
+        "Content": ""
+      },
+      {
+        "Directive": "errorMessage",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample11.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample5.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallJsExample5",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-js-example-5\""
+      },
+      {
+        "Directive": "implements",
+        "Content": "IDisposable"
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "if",
+        "Content": "(stockSymbol is not null)"
+      },
+      {
+        "Directive": "if",
+        "Content": "(result is not null)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample5.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample3.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallJsExample3",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnInitialized",
+        "IsAsync": false,
+        "ReturnType": "void"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-js-example-3\""
+      },
+      {
+        "Directive": "implements",
+        "Content": "IDisposable"
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "if",
+        "Content": "(stockSymbol is not null)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample3.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample1.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallJsExample1",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-js-example-1\""
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "text",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample1.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample6.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallJsExample6",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnAfterRenderAsync",
+        "IsAsync": true,
+        "ReturnType": "Task"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-js-example-6\""
+      },
+      {
+        "Directive": "implements",
+        "Content": "IAsyncDisposable"
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "result",
+        "Content": ""
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample6.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample10.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallJsExample10",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-js-example-10\""
+      },
+      {
+        "Directive": "using",
+        "Content": "System.Runtime.InteropServices"
+      },
+      {
+        "Directive": "using",
+        "Content": "Microsoft.JSInterop"
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "if",
+        "Content": "(callResultForBoolean)"
+      },
+      {
+        "Directive": "if",
+        "Content": "(!string.IsNullOrEmpty(callResultForString))"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample10.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample4.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallJsExample4",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-js-example-4\""
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "if",
+        "Content": "(stockSymbol is not null)"
+      },
+      {
+        "Directive": "if",
+        "Content": "(result is not null)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample4.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample2.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallJsExample2",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-js-example-2\""
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "if",
+        "Content": "(stockSymbol is not null)"
+      },
+      {
+        "Directive": "code",
+        "Content": "{"
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample2.razor"
+  },
+  "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample8.razor": {
+    "IsValidComponent": true,
+    "ComponentName": "CallJsExample8",
+    "BaseType": "Microsoft.AspNetCore.Components.ComponentBase",
+    "Parameters": [],
+    "Injections": [],
+    "LifecycleMethods": [
+      {
+        "Name": "OnAfterRenderAsync",
+        "IsAsync": true,
+        "ReturnType": "Task"
+      }
+    ],
+    "ChildContents": [],
+    "EventCallbacks": [],
+    "RazorDirectives": [
+      {
+        "Directive": "page",
+        "Content": "\"/call-js-example-8\""
+      },
+      {
+        "Directive": "implements",
+        "Content": "IAsyncDisposable"
+      },
+      {
+        "Directive": "inject",
+        "Content": "IJSRuntime JS"
+      },
+      {
+        "Directive": "code",
+        "Content": ""
+      }
+    ],
+    "SourceFilePath": "/Users/yashupadhyay/go/src/github.com/yashupadhyay/blazor-samples/6.0/BlazorSample_WebAssembly/Pages/call-js-from-dotnet/CallJsExample8.razor"
+  }
+}
